@@ -1,0 +1,17 @@
+$font-family-base: arial;
+$font-size-base: 14px;
+$background-color-base:rgb(121, 96, 96);
+$font-color-base: #fff;
+%banner {
+    background-color: #fff;
+    color: #ccc;
+}
+body{
+    background-color: $background-color-base;
+}
+
+p{
+    @extend %banner;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+}
